@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'title' => 'Package',
+    'singular_title' => 'Package',
+    'lbl_select_staff' => 'Select Staff',
+    'lbl_package_type' => 'Select Package Type',
+    'lbl_category' => 'Category',
+    'lbl_sub_category' => 'Sub Category',
+    'lbl_select_service' => 'Select Service',
+    'lbl_start_at' => 'Start At',
+    'lbl_end_at' => 'End At',
+    'lbl_price' => 'Price',
+    'lbl_image' => 'Image',
+    'lbl_description' => 'Description',
+    'lbl_name' => 'Name',
+    'lbl_status' => 'Status',
+    'lbl_is_featured' => 'Featured',
+    'lbl_select_employee' => 'Select Staff',
+    'lbl_services' => 'Services',
+    'lbl_package_price' => 'Package Price',
+    'lbl_service_price' => 'Service Package Price',
+    'discount_price'=>'Discounted Price',
+    'lbl_no_name' => "No. Service",
+];

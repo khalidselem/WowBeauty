@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "2eff6b65-bc2c-4976-8008-1c8226c90c05",
+    "name": "Salon",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-04-29T11:34:42.350Z",
+    "modified": "2023-04-29T11:34:42.350Z",
+    "data": [
+      {
+        "name": "base_url",
+        "value": "https://innoquad.in/full-solution-projects/salon/public/api"
+      },
+      {
+        "name": "token",
+        "value": "9|websCC1rOUyrxMAHPSPG9c33Mri3V5So9rXU7G7h"
+      }
+    ]
+  }
+]

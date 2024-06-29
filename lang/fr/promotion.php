@@ -1,0 +1,23 @@
+<?php
+return [
+    'title' => 'Promotions',
+    'singular_title' => 'Promotion',
+    'lbl_status' => 'Statut',
+    'lbl_expired' => 'Expirée',
+    'lbl_name' => 'Nom',
+    'lbl_action' => 'Action',
+    'description' => 'Description',
+    'start_datetime' => 'Date et heure de début',
+    'end_datetime' => 'Date et heure de fin',
+    'coupon_code' => 'Code de coupon',
+    'coupon_type' => 'Type de coupon',
+    'number_of_coupon' => 'Nombre de coupons',
+    'percent_or_fixed' => 'Pourcentage ou fixe',
+    'discount_percentage' => 'Pourcentage de réduction',
+    'discount_amount' => 'Montant de réduction',
+    'use_limit' => 'Limite d\'utilisation',
+    'coupon_title' => 'Coupons',
+    'user' => 'Utilisateur',
+    'timezone' => 'Fuseau horaire',
+    'value' => 'Valeur',
+];

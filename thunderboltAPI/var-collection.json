@@ -1,0 +1,16 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "Salon",
+    "dateExported": "2023-05-01T04:59:57.916Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "base_url",
+            "value": "https://innoquad.in/full-solution-projects/salon/public/api"
+        },
+        {
+            "name": "token",
+            "value": "9|websCC1rOUyrxMAHPSPG9c33Mri3V5So9rXU7G7h"
+        }
+    ]
+}

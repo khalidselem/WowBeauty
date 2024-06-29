@@ -1,0 +1,447 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Salon",
+    "dateExported": "2023-05-01T04:44:59.588Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d2b3e99e-42ce-4797-9460-dfbe1f7c2a50",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Login",
+            "url": "",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-01T04:44:50.151Z",
+            "modified": "2023-05-01T04:44:50.151Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"email\": \"super@admin.com\",\r\n    \"password\": \"secret\"\r\n}"
+            }
+        },
+        {
+            "_id": "64900860-9722-4417-b639-ba2ac1370bdb",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Register",
+            "url": "",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-01T04:44:50.152Z",
+            "modified": "2023-05-01T04:44:50.152Z",
+            "headers": []
+        },
+        {
+            "_id": "37b9880a-dd34-4a7f-aef5-64fc9985100d",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "social login",
+            "url": "",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-01T04:44:50.153Z",
+            "modified": "2023-05-01T04:44:50.153Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{    \r\n    \"login_type\":\"mobile\",\r\n    \"username\":\"100002\",  \r\n    \"player_id\":\"23242weewr3\",\r\n    \"email\":\"demo@admin.com\",\r\n    \"password\":\"secret\"\r\n}"
+            }
+        },
+        {
+            "_id": "b4ebbd63-8ef2-4c75-b368-4edde80a00f5",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "forgot password",
+            "url": "",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-05-01T04:44:50.154Z",
+            "modified": "2023-05-01T04:44:50.154Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\t\"email\" : \"super@admin.com\"\r\n}"
+            }
+        },
+        {
+            "_id": "d2f135ca-ae21-4fb7-b13a-742ff86cec34",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "change password",
+            "url": "",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-05-01T04:44:50.155Z",
+            "modified": "2023-05-01T04:44:50.155Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"id\":2,\r\n\t\"old_password\":\"secret\",\r\n\t\"new_password\" : \"secret123\"\r\n}"
+            }
+        },
+        {
+            "_id": "0568b18d-83fa-499c-9996-c601f1ed4075",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Booking List",
+            "url": "",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-05-01T04:44:50.156Z",
+            "modified": "2023-05-01T04:44:50.156Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "48713f19-54e1-4ac9-b7f2-0ac20663ba35",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Booking Find",
+            "url": "",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-05-01T04:44:50.157Z",
+            "modified": "2023-05-01T04:44:50.157Z",
+            "headers": []
+        },
+        {
+            "_id": "cc934846-76da-474e-a7c1-f7409f8eee17",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Booking Store",
+            "url": "",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-05-01T04:44:50.158Z",
+            "modified": "2023-05-01T04:44:50.158Z",
+            "headers": []
+        },
+        {
+            "_id": "132e2c99-a326-4dab-9264-e4a372501fd4",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Booking Update",
+            "url": "",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-05-01T04:44:50.159Z",
+            "modified": "2023-05-01T04:44:50.159Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"slug\": \"fugiat-ipsum2t5t0\",\n        \"name\": \"Fugia565t20\",\n        \"postal_code\": \"70265653320\",\n        \"address_line_1\": \"8735 Johnson Tunnel Suite 559\\nFayport, AK 87476-463320\",\n        \"address_line_2\": \"Apt. 6013320\",\n        \"city\": \"Yasminland3320\",\n        \"state\": \"Wisconsin3320\",\n        \"latitude\": -8.677701,\n        \"longitude\": -174.16952,\n        \"country\": \"Iran\",\n        \"status\": 0,\n        \"company_id\": 1,\n        \"created_by\": null,\n        \"updated_by\": null,\n        \"deleted_by\": null,\n        \"created_at\": \"2023-03-10T06:40:01.000000Z\",\n        \"updated_at\": \"2023-03-10T06:40:01.000000Z\",\n        \"deleted_at\": null\n}"
+            }
+        },
+        {
+            "_id": "7daf8cd6-703c-48df-ac57-0720829163f6",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "Booking Destroy",
+            "url": "",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-05-01T04:44:50.160Z",
+            "modified": "2023-05-01T04:44:50.160Z",
+            "headers": []
+        },
+        {
+            "_id": "16188f1d-d606-44d1-8198-f58dae6b10f1",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "branch_create",
+            "url": "",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-05-01T04:44:50.162Z",
+            "modified": "2023-05-01T04:44:50.162Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"slug\": \"fugiat-ipsum2t5t0\",\n        \"name\": \"Fugia565t20\",\n        \"postal_code\": \"70265653320\",\n        \"address_line_1\": \"8735 Johnson Tunnel Suite 559\\nFayport, AK 87476-463320\",\n        \"address_line_2\": \"Apt. 6013320\",\n        \"city\": \"Yasminland3320\",\n        \"state\": \"Wisconsin3320\",\n        \"latitude\": -8.677701,\n        \"longitude\": -174.16952,\n        \"country\": \"Iran\",\n        \"status\": 0,\n        \"company_id\": 1,\n        \"created_by\": null,\n        \"updated_by\": null,\n        \"deleted_by\": null,\n        \"created_at\": \"2023-03-10T06:40:01.000000Z\",\n        \"updated_at\": \"2023-03-10T06:40:01.000000Z\",\n        \"deleted_at\": null\n}"
+            }
+        },
+        {
+            "_id": "51d1a0f7-48fa-4e2e-a387-51fd4ea5cddb",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "branch_details",
+            "url": "",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-05-01T04:44:50.163Z",
+            "modified": "2023-05-01T04:44:50.163Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "ee8e7c66-3a5b-43f1-a366-05d069c20b9e",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "branch_list",
+            "url": "",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-05-01T04:44:50.164Z",
+            "modified": "2023-05-01T04:44:50.164Z",
+            "headers": []
+        },
+        {
+            "_id": "d9c679c6-a0a5-4c1b-b624-0d3a6006168d",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "branch_update",
+            "url": "",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2023-05-01T04:44:50.165Z",
+            "modified": "2023-05-01T04:44:50.165Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"slug\": \"fugiat-ipsum20\",\n        \"name\": \"Fugiat420\",\n        \"postal_code\": \"7023420\",\n        \"address_line_1\": \"8735 Johnson Tunnel Suite 559\\nFayport, AK 87476-463420\",\n        \"address_line_2\": \"Apt. 6013420\",\n        \"city\": \"Yasminland3420\",\n        \"state\": \"Wisconsin3320\",\n        \"latitude\": -8.677701,\n        \"longitude\": -174.16952,\n        \"country\": \"Iran\",\n        \"status\": 0,\n        \"company_id\": 1,\n        \"created_by\": null,\n        \"updated_by\": null,\n        \"deleted_by\": null,\n        \"created_at\": \"2023-03-10T06:40:01.000000Z\",\n        \"updated_at\": \"2023-03-10T06:40:01.000000Z\",\n        \"deleted_at\": null\n}"
+            }
+        },
+        {
+            "_id": "ebbdd4a7-6087-41b3-af7e-cf309ac052d3",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "branch_delete",
+            "url": "",
+            "method": "DELETE",
+            "sortNum": 150000,
+            "created": "2023-05-01T04:44:50.166Z",
+            "modified": "2023-05-01T04:44:50.166Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "dab0b7ae-9603-4417-b41a-f26dfdd014c7",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "category_list",
+            "url": "",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2023-05-01T04:44:50.167Z",
+            "modified": "2023-05-01T04:44:50.167Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/ecmascript"
+                }
+            ]
+        },
+        {
+            "_id": "f506011f-4ccc-4dd0-b019-e6654eea1bc4",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "category_create",
+            "url": "",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2023-05-01T04:44:50.168Z",
+            "modified": "2023-05-01T04:44:50.168Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "form": [
+                    {
+                        "name": "slug",
+                        "value": "quis-ad-cum-dolores20203434"
+                    },
+                    {
+                        "name": "name",
+                        "value": "Quis ad cum dolores2020343"
+                    },
+                    {
+                        "name": "status",
+                        "value": "1"
+                    },
+                    {
+                        "name": "parent_id",
+                        "value": "1"
+                    },
+                    {
+                        "name": "company_id",
+                        "value": "1"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "feature_image",
+                        "value": "9c0leOi4A/icon2.jpeg"
+                    }
+                ],
+                "type": "formdata"
+            }
+        },
+        {
+            "_id": "308a57f7-d415-4078-976c-7f2bfd097d0c",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "category_details",
+            "url": "",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2023-05-01T04:44:50.169Z",
+            "modified": "2023-05-01T04:44:50.169Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "861bd5a2-e9cf-4817-8923-0860bb2b9e99",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "category_delete",
+            "url": "",
+            "method": "DELETE",
+            "sortNum": 190000,
+            "created": "2023-05-01T04:44:50.170Z",
+            "modified": "2023-05-01T04:44:50.170Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "8729cfa3-f4cd-4236-a1f2-0cd047f36efd",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "category_update",
+            "url": "",
+            "method": "PATCH",
+            "sortNum": 200000,
+            "created": "2023-05-01T04:44:50.171Z",
+            "modified": "2023-05-01T04:44:50.171Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "2542225b-6c2a-45a6-80d4-22e042d2c488",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "update_branch_assign_staff",
+            "url": "",
+            "method": "POST",
+            "sortNum": 210000,
+            "created": "2023-05-01T04:44:50.172Z",
+            "modified": "2023-05-01T04:44:50.172Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"users\": [\n        {\"user_id\":6,\n        \"is_primary\":1\n        },\n        {\"user_id\":7,\n        \"is_primary\":1\n        }\n       \n        ]\n}"
+            }
+        },
+        {
+            "_id": "e0f97653-87bc-4eb8-9e2d-3b7c03223ff5",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "branch_assign_employee_list",
+            "url": "",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2023-05-01T04:44:50.173Z",
+            "modified": "2023-05-01T04:44:50.173Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "d1025e4c-6f11-4c3a-8d5b-41511cc55694",
+            "colId": "dbdaf9ed-40c2-41bf-b317-16b6e562f329",
+            "containerId": "",
+            "name": "setting_list",
+            "url": "",
+            "method": "GET",
+            "sortNum": 230000,
+            "created": "2023-05-01T04:44:50.174Z",
+            "modified": "2023-05-01T04:44:50.174Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        }
+    ]
+}

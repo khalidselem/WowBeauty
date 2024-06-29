@@ -1,0 +1,23 @@
+<?php
+return [
+    'title' => 'Aktionen',
+    'singular_title' => 'Aktion',
+    'lbl_status' => 'Status',
+    'lbl_expired' => 'Abgelaufen',
+    'lbl_name' => 'Name',
+    'lbl_action' => 'Aktion',
+    'description' => 'Beschreibung',
+    'start_datetime' => 'Startdatum und -zeit',
+    'end_datetime' => 'Enddatum und -zeit',
+    'coupon_code' => 'Gutscheincode',
+    'coupon_type' => 'Gutscheintyp',
+    'number_of_coupon' => 'Anzahl der Gutscheine',
+    'percent_or_fixed' => 'Prozentual oder Festbetrag',
+    'discount_percentage' => 'Rabattprozentsatz',
+    'discount_amount' => 'Rabattbetrag',
+    'use_limit' => 'Nutzungslimit',
+    'coupon_title' => 'Gutscheine',
+    'user' => 'Benutzer',
+    'timezone' => 'Zeitzone',
+    'value' => 'Wert',
+];
